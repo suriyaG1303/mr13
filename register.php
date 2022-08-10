@@ -1,6 +1,6 @@
 <?php
 
-$uname = $_POST['uname1'];
+$uname = $_POST['uname'];
 $email  = $_POST['email'];
 $upswd1 = $_POST['upswd1'];
 $upswd2 = $_POST['upswd2'];
@@ -11,10 +11,10 @@ $upswd2 = $_POST['upswd2'];
 if (!empty($uname) || !empty($email) || !empty($upswd1) || !empty($upswd2) )
 {
 
-$host = "localhost";
-$dbusername = "root";
-$dbpassword = "";
-$dbname = "projectby rts";
+$host = "sql6.freesqldatabase.com";
+$dbusername = "sql6512040";
+$dbpassword = "dah545SRdx";
+$dbname = "sql6512040";
 // Create connection
 $conn = new mysqli ($host, $dbusername, $dbpassword, $dbname);
 
